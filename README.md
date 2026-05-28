@@ -18,6 +18,13 @@ ln -s /path/to/ux-builder-guidelines/AGENTS.md ~/.config/opencode/AGENTS.md
 ln -s /path/to/ux-builder-guidelines/PROJECT_RULES.md ~/.config/opencode/PROJECT_RULES.md
 ```
 
+### Codex (OpenAI) 全局配置
+
+```bash
+ln -s /path/to/ux-builder-guidelines/AGENTS.md ~/.codex/AGENTS.md
+ln -s /path/to/ux-builder-guidelines/PROJECT_RULES.md ~/.codex/PROJECT_RULES.md
+```
+
 ### Claude Code 全局配置
 
 ```bash
