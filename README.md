@@ -15,7 +15,6 @@ AI 编码助手协作规则与 UX 交付规范模板。
 
 ```bash
 ln -s /path/to/ux-builder-guidelines/AGENTS.md ~/.config/opencode/AGENTS.md
-ln -s /path/to/ux-builder-guidelines/PROJECT_RULES.md ~/.config/opencode/PROJECT_RULES.md
 ```
 
 ### Codex (OpenAI) 全局配置
