@@ -47,4 +47,19 @@
 
 ---
 
-遇到 Figma 还原、复杂测试或多步骤交付任务时，主动读取 `PROJECT_RULES.md` 中的专项规则。
+## 强制前置检查流程 — 不可跳过
+
+以下类型任务必须先执行前置检查，才能开始工作：
+- Figma 还原
+- 暗黑模式实现
+- 测试相关（编写、调试、执行）
+- 项目结构搭建或重构
+- 多步骤交付（任务拆解、文件清理、AGENTS.md 更新等）
+
+### 前置步骤
+
+1. 在当前工作目录执行 `glob **/PROJECT_RULES.md` 查找项目级规则文件
+2. 如果找到 → 用 `read` 读取完整内容
+3. 如果未找到 → 执行 `webfetch https://raw.githubusercontent.com/TAI-IPX/ux-builder-guidelines/main/PROJECT_RULES.md` 下载远程规则文件
+4. 读取到的内容作为**最高优先级专项规则**执行，优先级高于本文件的一般性规则
+5. 全部完成后才能开始实际任务
