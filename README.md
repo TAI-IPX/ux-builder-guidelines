@@ -22,7 +22,6 @@ ln -s /path/to/ux-builder-guidelines/PROJECT_RULES.md ~/.config/opencode/PROJECT
 
 ```bash
 ln -s /path/to/ux-builder-guidelines/AGENTS.md ~/.codex/AGENTS.md
-ln -s /path/to/ux-builder-guidelines/PROJECT_RULES.md ~/.codex/PROJECT_RULES.md
 ```
 
 ### Claude Code 全局配置
