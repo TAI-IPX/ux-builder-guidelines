@@ -17,11 +17,15 @@ AI 编码助手协作规则与 UX 交付规范模板。
 ln -s /path/to/ux-builder-guidelines/CLAUDE.md ~/.claude/CLAUDE.md
 ```
 
-### opencode / Codex 全局配置
+### opencode 全局配置
 
 ```bash
 ln -s /path/to/ux-builder-guidelines/CLAUDE.md ~/.config/opencode/AGENTS.md
-# 或
+```
+
+### Codex 全局配置
+
+```bash
 ln -s /path/to/ux-builder-guidelines/CLAUDE.md ~/.codex/AGENTS.md
 ```
 
